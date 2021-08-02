@@ -15,9 +15,5 @@ public class internet {
 				if (con.getResponseCode() == 200){
 					System.out.println("Connection established!!");
 				}
-			} catch (Exception exception) {
-				System.out.println("No Connection");
-			}
-		} catch (Exception e) {
-			e.printStackTrace();
+			} 
 }
