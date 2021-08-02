@@ -10,7 +10,7 @@ public class InternetConnectionExample {
 			IOException {
 		try {
 			try {
-				URL url = new URL("http://www.google.com");
+				URL url = new URL("https://www.google.com");
 				System.out.println(url.getHost());
 				HttpURLConnection con = (HttpURLConnection) url
 						.openConnection();
