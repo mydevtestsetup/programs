@@ -5,7 +5,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.net.UnknownHostException;
 
-public class InternetConnectionExample {
+public class internet {
 	public static void main(String[] args) throws UnknownHostException,
 			IOException {
 		try {
