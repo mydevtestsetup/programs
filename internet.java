@@ -6,10 +6,7 @@ import java.net.URL;
 import java.net.UnknownHostException;
 
 public class internet {
-	public static void main(String args[]) throws UnknownHostException,
-			IOException {
-		try {
-			try {
+	public static void main(String args[]){
 				URL url = new URL("https://www.google.com");
 				System.out.println(url.getHost());
 				HttpURLConnection con = (HttpURLConnection) url
@@ -23,6 +20,4 @@ public class internet {
 			}
 		} catch (Exception e) {
 			e.printStackTrace();
-		}
-	}
 }
